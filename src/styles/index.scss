@@ -252,6 +252,10 @@ body {
   &__company {
     font-size: 0.9rem;
     color: #6e8098;
+    .dot-separator {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
   }
 
   &__position {
