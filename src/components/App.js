@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 function App() {
   const dispatch = useDispatch();
-  const { jobs, loading } = useSelector((state) => state.jobs);
+  const { jobs } = useSelector((state) => state.jobs);
 
   useEffect(() => {
     dispatch(fetchAllJobs());
